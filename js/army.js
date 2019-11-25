@@ -27,13 +27,14 @@ import units from './units.js';
         deffence: { min: 0, max: 100 },
         deffenceRegeneration: { min: 0, max: 100 },
         accuracy: { min: 0, max: 100 },
-        rateOfFire: { min: 1, max: 3 }
+        rateOfFire: { min: 1, max: 3 },
+        sightOfView: { min: 0, max: 160 }
     }
 
     for ( let i=0; i<unitLevels.length; i++ ) {
         const type = unitLevels[i].dataset.level;
         unitLevelsDOM[type] = {
-            value: unitLevels[i].querySelector('.value'),
+            value: unitLevels[i].querySelector('.value > .number'),
             bar: unitLevels[i].querySelector('.bar-value')
         }
     }
@@ -52,8 +53,6 @@ import units from './units.js';
     const currentLevelValue = ( type, value ) => {
         const min = levels[type].min;
         const max = levels[type].max;
-        console.log(type, value, min, max);
-        
         return Math.round( (value-min) / (max-min) * 100 );
     }
 
@@ -70,7 +69,7 @@ import units from './units.js';
         unitImg.src = `./img/units/${unitType}.png`;
         unitName.textContent = unitType;
 
-        const stats = ['health', 'attack', 'deffence', 'deffenceRegeneration', 'accuracy', 'rateOfFire'];
+        const stats = ['health', 'attack', 'deffence', 'deffenceRegeneration', 'accuracy', 'rateOfFire', 'sightOfView'];
         for ( let i=0; i<stats.length; i++) {
             const stat = stats[i];
             let level = 0;

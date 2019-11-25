@@ -103,6 +103,18 @@
                 font-size: 18px;
                 line-height: 20px;
             }
+                .unit-details > .details > .level > .value > .number {
+                    display: inline-block;
+                    float: left;
+                }
+                .unit-details > .details > .level > .value > .desc {
+                    display: inline-block;
+                    float: left;
+                    margin-left: 5px;
+                    font-size: 14px;
+                    color: #333;
+                    font-style: italic;
+                }
             .unit-details > .details > .level > .bar {
                 display: inline-block;
                 float: left;

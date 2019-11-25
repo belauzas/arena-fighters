@@ -6,7 +6,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'buffalo',
@@ -15,7 +16,8 @@ export default [
         deffence: 31,
         deffenceRegeneration: 15,
         accuracy: 38,
-        rateOfFire: { min: 1, max: 3, current: 1.4 }
+        rateOfFire: { min: 1, max: 3, current: 1.4 },
+        sightOfView: 100
     },
     {
         type: 'chick',
@@ -24,7 +26,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'chicken',
@@ -33,7 +36,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'cow',
@@ -42,7 +46,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'crocodile',
@@ -51,7 +56,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'dog',
@@ -60,7 +66,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'duck',
@@ -69,7 +76,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'elephant',
@@ -78,7 +86,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'frog',
@@ -87,7 +96,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'giraffe',
@@ -96,7 +106,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'goat',
@@ -105,7 +116,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'gorilla',
@@ -114,7 +126,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'hippo',
@@ -123,7 +136,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'horse',
@@ -132,7 +146,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'monkey',
@@ -141,7 +156,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'moose',
@@ -150,7 +166,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'narwhal',
@@ -159,7 +176,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'owl',
@@ -168,7 +186,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'panda',
@@ -177,7 +196,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'parrot',
@@ -186,7 +206,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'penguin',
@@ -195,7 +216,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'pig',
@@ -204,7 +226,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'rabbit',
@@ -213,7 +236,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'rhino',
@@ -222,7 +246,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'sloth',
@@ -231,7 +256,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'snake',
@@ -240,7 +266,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'walrus',
@@ -249,7 +276,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'whale',
@@ -258,7 +286,8 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     },
     {
         type: 'zebra',
@@ -267,6 +296,7 @@ export default [
         deffence: 41,
         deffenceRegeneration: 20,
         accuracy: 28,
-        rateOfFire: { min: 1, max: 3, current: 1.2 }
+        rateOfFire: { min: 1, max: 3, current: 1.2 },
+        sightOfView: 120
     }
 ]
