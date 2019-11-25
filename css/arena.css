@@ -1,13 +1,3 @@
-body {
-    display: inline-block;
-    width: 100%;
-    height: 100vh;
-    background-color: #68897E;
-    background-image: url(../img/background/bg1.jpg);
-    background-size: cover;
-    overflow: hidden;
-}
-
 .arena {
     display: inline-block;
     width: 90vmin;

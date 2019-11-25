@@ -1,0 +1,10 @@
+/* reset */
+@import './reset.css';
+
+/* components */
+@import './page.css';
+@import './button.css';
+
+/* custom styles per page */
+@import './login.css';
+@import './army.css';

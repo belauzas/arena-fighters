@@ -5,19 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Arena fighters</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-    <h1 class="beta">Arena fighters</h1>
-    <form>
-        <label for="username">Username</label>
-        <input type="text" name="username">
-        <div class="btn">Register</div>
-    </form>
+<body data-page="">
+    <div class="page page-login">
+        <h1 class="beta">Arena fighters</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" name="username">
+            <div class="btn">Register</div>
+        </form>
+    </div>
+
+    <div class="page page-army">
+        <div class="select-from">
+            <div class="title">HEROUS</div>
+            <div class="list">
+                LIST
+            </div>
+        </div>
+        <div class="unit-details">
+            <div class="unit-preview">
+                <img src="./img/units/dog.png" alt="">
+            </div>
+            <div class="details">
+                <div class="title">Dog</div>
+                <div class="level" data-level="health">
+                    <div class="label">Health</div>
+                    <div class="value">1000</div>
+                    <div class="bar">
+                        <div class="bar-value" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="level" data-level="attack">
+                    <div class="label">Attack</div>
+                    <div class="value">64</div>
+                    <div class="bar">
+                        <div class="bar-value" style="width: 64%;"></div>
+                    </div>
+                </div>
+                <div class="level" data-level="deffence">
+                    <div class="label">Deffence</div>
+                    <div class="value">41</div>
+                    <div class="bar">
+                        <div class="bar-value" style="width: 41%;"></div>
+                    </div>
+                </div>
+                <div class="level" data-level="deffenceRegeneration">
+                    <div class="label">Deffence regeneration</div>
+                    <div class="value">20%/sec</div>
+                    <div class="bar">
+                        <div class="bar-value" style="width: 20%;"></div>
+                    </div>
+                </div>
+                <div class="level" data-level="accuracy">
+                    <div class="label">Accuracy</div>
+                    <div class="value">28%</div>
+                    <div class="bar">
+                        <div class="bar-value" style="width: 28%;"></div>
+                    </div>
+                </div>
+                <div class="level" data-level="rateOfFire">
+                    <div class="label">Rate of fire</div>
+                    <div class="value">1.2</div>
+                    <div class="bar">
+                        <div class="bar-value" style="width: 10%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="selected-list">
+            <div class="title">TEAM</div>
+            <div class="list">LIST</div>
+            <div class="start disabled">Start</div>
+        </div>
+    </div>
 
     <script src="./js/updateReset.js"></script>
-    <script src="./js/login.js"></script>
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/login.js" type="module"></script>
+    <script src="./js/army.js" type="module"></script>
 </body>
 </html>

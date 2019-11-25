@@ -1,59 +1,35 @@
 "use strict";
 
-(function(){
+import LocalStorage from './localStorage.js';
+import Page from './page.js';
 
-const input = document.querySelector('input');
-const button = document.querySelector('.btn');
+(function() {
+    const DB = new LocalStorage();
+    const page =  new Page();
 
-// false - register; true - login
-let action = false;
+    const loginPage = document.querySelector('.page.page-login');
+    const input = loginPage.querySelector('input');
+    const button = loginPage.querySelector('.btn');
 
-let currentUsers = localStorage.getItem('arena-users');
-if ( currentUsers ) {
-    currentUsers = JSON.parse(currentUsers);
-} else {
-    currentUsers = [];
-}
+    const isAvailable = () => {
+        const username = input.value;
+        return button.textContent = DB.userExists(username) ? 'Login' : 'Register';
+    }
 
-const isAvailable = () => {
-    const username = input.value;
+    const login = () => {
+        const username = input.value;
+        if ( !username ) return false;
 
-    if ( username && currentUsers.length > 0 ) {
-        if ( currentUsers.filter(u => u.username === username).length ) {
-            action = true;
+        // login or register user
+        if ( DB.userExists(username) ) {
+            DB.login(username);
+            page.current = 'army';
         } else {
-            action = false;
+            DB.registerUser(username);
+            isAvailable();
         }
-    } else {
-        action = false;
     }
 
-    return button.textContent = action ? 'Login' : 'Register';
-}
-
-const login = () => {
-    const username = input.value;
-
-    if ( !username ) {
-        return;
-    }
-
-    if ( action ) {
-        // login
-    } else {
-        // register
-        const user = {
-            username: username
-        }
-        currentUsers.push(user);
-        localStorage.setItem('arena-users', JSON.stringify(currentUsers));
-        isAvailable();
-    }
-    
-}
-
-input.addEventListener('keyup', isAvailable);
-
-button.addEventListener('click', login);
-
+    input.addEventListener('keyup', isAvailable);
+    button.addEventListener('click', login);
 })();

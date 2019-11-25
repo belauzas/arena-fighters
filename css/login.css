@@ -1,15 +1,4 @@
-body {
-    display: inline-block;
-    width: 100%;
-    height: 100vh;
-    background-color: #68897E;
-    background-image: url(../img/background/bg1.jpg);
-    background-size: cover;
-    overflow: hidden;
-    text-align: center;
-}
-
-h1 {
+.page-login h1 {
     display: inline-block;
     margin-top: 10%;
     text-align: center;
@@ -17,7 +6,7 @@ h1 {
     line-height: 100px;
     position: relative;
 }
-    h1.beta::after {
+    .page-login h1.beta::after {
         content: "ALPHA";
         position: absolute;
         bottom: -15px;
@@ -29,17 +18,17 @@ h1 {
         background-color: red;
     }
 
-form {
+.page-login form {
     display: inline-block;
     width: 300px;
     margin: 100px calc(50% - 150px);
 }
-    form > * {
+    .page-login form > * {
         display: inline-block;
         width: 100%;
         text-align: center;
     }
-    form > label {
+    .page-login form > label {
         margin-bottom: 5px;
         font-size: 16px;
         line-height: 20px;
@@ -47,7 +36,7 @@ form {
         font-weight: bold;
         color: #fff8;
     }
-    form > input {
+    .page-login form > input {
         margin-bottom: 20px;
         font-size: 24px;
         line-height: 50px;
@@ -55,6 +44,6 @@ form {
         background-color: #fff8;
         border: none;
     }
-    form > .btn {
+    .page-login form > .btn {
         padding: 15px;
     }

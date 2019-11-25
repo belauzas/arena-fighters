@@ -1,0 +1,196 @@
+.page-army > * {
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.select-from {
+    background-color: #0366;
+    box-shadow: 0 0 8px #0008;
+}
+    .select-from > .title {
+        display: inline-block;
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .select-from > .list {
+        display: inline-block;
+        width: 120%;
+        margin-left: -10px;
+        padding: 0px 20px 20px 20px;
+        height: calc(100% - 50px);
+        overflow-y: auto;
+    }
+        .select-from > .list > .unit {
+            display: inline-block;
+            width: 120px;
+            margin: 10px;
+            height: 110px;
+            padding: 15px;
+            float: left;
+            box-shadow: 0 0 4px #3333;
+            cursor: pointer;
+        }
+            .select-from > .list > .unit > img {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            .select-from > .list > .unit:hover,
+            .select-from > .list > .unit.active {
+                box-shadow: 0 0 4px #3339;
+                background-color: #3336;
+            }
+
+.unit-details {
+    width: calc(100% - 600px);
+}
+    .unit-details > .unit-preview {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 80px;
+    }
+        .unit-details > .unit-preview > img {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    .unit-details > .details {
+        display: inline-block;
+        width: 40%;
+        max-height: calc(100% - 120px);
+        float: left;
+        padding: 20px;
+        margin: 60px 0;
+        background-color: #fff3;
+    }
+        .unit-details > .details > .title {
+            display: inline-block;
+            width: 100%;
+            padding: 10px 0;
+            margin-bottom: 40px;
+            font-size: 60px;
+            font-weight: bold;
+            line-height: 60px;
+            text-transform: capitalize;
+            border-bottom: 4px solid #fffc;
+        }
+        .unit-details > .details > .level {
+            display: inline-block;
+            width: 100%;
+            padding: 10px 0;
+        }
+            .unit-details > .details > .level > .label {
+                display: inline-block;
+                float: left;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .unit-details > .details > .level > .value {
+                display: inline-block;
+                float: right;
+                font-size: 18px;
+                line-height: 20px;
+            }
+            .unit-details > .details > .level > .bar {
+                display: inline-block;
+                float: left;
+                height: 4px;
+                width: 100%;
+                margin-top: 10px;
+                background-color: #ccc;
+                position: relative;
+            }
+                .unit-details > .details > .level > .bar > .bar-value {
+                    display: inline-block;
+                    float: left;
+                    height: 200%;
+                    width: 70%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #36f;
+                    transition: all 0.5s;
+                }
+
+.selected-list {
+    background-color: #0366;
+    box-shadow: 0 0 8px #0008;
+}
+    .selected-list > .title {
+        display: inline-block;
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .selected-list > .list {
+        display: inline-block;
+        width: 120%;
+        margin-left: -10px;
+        padding: 0px 20px 20px 20px;
+        height: calc(100% - 150px);
+        overflow-y: auto;
+    }
+        .selected-list > .list > .unit {
+            display: inline-block;
+            width: 120px;
+            margin: 10px;
+            height: 110px;
+            padding: 15px;
+            float: left;
+            box-shadow: 0 0 4px #3333;
+            cursor: pointer;
+        }
+            .selected-list > .list > .unit > img {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            .selected-list > .list > .unit:hover {
+                box-shadow: 0 0 4px #3339;
+                background-color: #3336;
+            }
+    .selected-list > .start {
+        display: inline-block;
+        width: calc(100% - 40px);
+        padding: 10px 20px;
+        margin: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: #f00;
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px #000c;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+        .selected-list > .start:hover {
+            letter-spacing: 5px;
+            font-size: 30px;
+            background-color: #f11;
+            box-shadow: 0 2px 8px #0009;
+        }
+        .selected-list > .start.disabled {
+            letter-spacing: 2px;
+            background-color: #944949;
+            color: #ccc;
+            box-shadow: 0 2px 8px #000c;
+            cursor: not-allowed;
+        }
